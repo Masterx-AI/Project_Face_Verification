@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run main.py
+web: sh setup.sh && apt-get install libgl1 && streamlit run main.py
