@@ -1,9 +1,9 @@
-numpy
-opencv-python-headless==4.2.0.32
-mtcnn
-tensorflow-cpu
-scipy
-keras_vggface
-keras_applications
+# numpy
+# opencv-python-headless==4.2.0.32
+# mtcnn
+# tensorflow-cpu
+# scipy
+# keras_vggface
+# keras_applications
 streamlit
-Pillow
+# Pillow
