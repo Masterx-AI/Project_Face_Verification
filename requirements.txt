@@ -1,0 +1,8 @@
+numpy
+mtcnn
+tensorflow-cpu
+scipy
+keras_vggface
+keras_applications
+streamlit
+Pillow
