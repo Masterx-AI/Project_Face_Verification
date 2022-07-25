@@ -1,1 +1,1 @@
-web: sh setup.sh && sudo apt-get install libgl1 && streamlit run main.py
+web: sh setup.sh && sudo apt-get install ffmpeg libsm6 libxext6 -y && streamlit run main.py
