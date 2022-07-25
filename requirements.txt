@@ -1,4 +1,5 @@
 numpy
+opencv-python-headless
 mtcnn
 tensorflow-cpu
 scipy
@@ -6,4 +7,3 @@ keras_vggface
 keras_applications
 streamlit
 Pillow
-opencv-python-headless
