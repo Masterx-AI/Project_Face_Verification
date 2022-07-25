@@ -6,4 +6,4 @@ keras_vggface
 keras_applications
 streamlit
 Pillow
-opencv-python
+opencv-python-headless
