@@ -8,6 +8,7 @@
 import streamlit as st
 # from PIL import Image
 # from user_func import extract_face, get_embeddings, get_similarity
+import cv2
 
 def main():
     
