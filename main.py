@@ -1,5 +1,7 @@
 import os
-os.system('sudo apt-get install python3-opencv -y')
+# os.system('sudo apt-get install opencv-python-headless -y')
+# os.system('pip install opencv-python-headless==4.5.5.64')
+os.system('sudo apt--get install libgl1')
 import cv2
 
 import warnings
