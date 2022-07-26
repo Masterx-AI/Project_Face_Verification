@@ -1,5 +1,5 @@
 numpy
-opencv-python-headless==4.3.0.38
+opencv-python-headless==3.4.18.65
 mtcnn
 tensorflow-cpu
 scipy
