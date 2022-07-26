@@ -1,14 +1,14 @@
-from mtcnn.mtcnn import MTCNN
-import numpy as np
-from keras_vggface.utils import preprocess_input
-from keras_vggface.vggface import VGGFace
-from scipy.spatial.distance import cosine, euclidean
+import os
+os.system('sudo apt-get install python3-opencv')
+
 import warnings
-warnings.filterwarnings('ignore')
-import streamlit as st
+import numpy as np
 from PIL import Image
-from user_func import extract_face, get_embeddings, get_similarity
-# import cv2
+import streamlit as st
+from user_func import extract_face, get_similarity
+
+warnings.filterwarnings('ignore')
+
 
 def main():
     
