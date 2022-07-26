@@ -6,4 +6,4 @@ keras_vggface
 keras_applications
 streamlit
 Pillow
-opencv-python-headless==4.5.5.64
+opencv-python-headless==3.4.18.65
