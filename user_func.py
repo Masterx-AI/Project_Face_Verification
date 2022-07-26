@@ -1,12 +1,13 @@
-from mtcnn.mtcnn import MTCNN
-import numpy as np
-from keras_vggface.utils import preprocess_input
-from keras_vggface.vggface import VGGFace
-from scipy.spatial.distance import cosine, euclidean
 import warnings
-warnings.filterwarnings('ignore')
-import streamlit as st
+import numpy as np
 from PIL import Image
+from mtcnn.mtcnn import MTCNN
+from keras_vggface.vggface import VGGFace
+from keras_vggface.utils import preprocess_input
+from scipy.spatial.distance import cosine, euclidean
+
+warnings.filterwarnings('ignore')
+
 
 def extract_face(image, resize=(224, 224)):
     pixcels = np.asarray(image)

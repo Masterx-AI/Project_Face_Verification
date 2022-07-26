@@ -1,13 +1,3 @@
-import os
-# os.system('sudo apt-get install opencv-python-headless -y')
-# os.system('pip install opencv-python-headless==4.5.5.64')
-# os.system('sudo apt--get install libgl1')
-# import cv2
-
-os.system("sudo apt update")
-os.system("sudo apt -y install python3 python3-pip python3-setuptools python3-dev")
-os.system("sudo pip3 install --upgrade tensorflow requests")
-
 import warnings
 import numpy as np
 from PIL import Image
