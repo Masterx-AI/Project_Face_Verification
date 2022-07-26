@@ -1,5 +1,6 @@
 import os
-os.system('sudo apt-get install python3-opencv')
+os.system('sudo apt-get install python3-opencv -y')
+import cv2
 
 import warnings
 import numpy as np
