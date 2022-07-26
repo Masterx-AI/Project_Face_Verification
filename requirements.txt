@@ -1,6 +1,6 @@
 numpy
 mtcnn
-# tensorflow-cpu
+tensorflow-cpu
 scipy
 keras_vggface
 keras_applications

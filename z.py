@@ -4,9 +4,9 @@ import os
 # os.system('sudo apt--get install libgl1')
 # import cv2
 
-os.system("sudo apt update")
-os.system("sudo apt -y install python3 python3-pip python3-setuptools python3-dev")
-os.system("sudo pip3 install --upgrade tensorflow requests")
+# os.system("sudo apt update")
+# os.system("sudo apt -y install python3 python3-pip python3-setuptools python3-dev")
+# os.system("sudo pip3 install --upgrade tensorflow requests")
 
 for i in os.environ['PATH'].split(';'):
     a = str(i.split('Scripts')[0].replace('\\','/'))
