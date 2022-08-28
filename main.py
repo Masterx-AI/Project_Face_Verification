@@ -8,7 +8,7 @@ warnings.filterwarnings('ignore')
 
 
 def main():
-    
+
     st.header('Face Verification')
 
     column1, column2 = st.columns(2)

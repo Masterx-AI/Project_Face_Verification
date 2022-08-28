@@ -9,8 +9,8 @@ import os
 # os.system("sudo pip3 install --upgrade tensorflow requests")
 
 for i in os.environ['PATH'].split(';'):
-    a = str(i.split('Scripts')[0].replace('\\','/'))
-    a+='lib/site-packages/keras_vggface/models.py'
+    a = str(i.split('Scripts')[0].replace('\\', '/')) + 'site-packages/keras_vggface/models.py'
+
     try:
         with open(a, 'r') as file:
             content = file.read()
@@ -18,7 +18,25 @@ for i in os.environ['PATH'].split(';'):
         content = content.replace('keras.engine.topology', 'keras.utils')
         with open(a, 'w') as file:
             file.write(content)
-    except:
+    except Exception:
         pass
-    
+
 os.system('streamlit run main.py')
+
+
+# import os
+# # print(os.environ['PATH'])
+
+# for i in os.environ['PATH'].split(';'):
+#     a = str(i.split('Scripts')[0].replace('\\','/'))
+#     print(a)
+#     a+='site-packages/keras_vggface/models.py'
+#     try:
+#         with open(a, 'r') as file:
+#             content = file.read()
+#             print(len(content))
+#         # content = content.replace('keras.engine.topology', 'keras.utils')
+#         # with open(a, 'w') as file:
+#         #     file.write(content)
+#     except:
+#         pass
